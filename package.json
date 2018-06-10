@@ -1,8 +1,9 @@
 {
   "name": "typing-master",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://krmroland.github.io/typing-master/",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "highcharts": "^6.1.0",
     "immutable": "^3.8.2",
     "l": "^0.6.0",
@@ -14,6 +15,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
