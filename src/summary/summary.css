@@ -1,0 +1,65 @@
+.summary {
+    padding: 0.25rem 0;
+    flex-direction: column;
+    background-color: #fff;
+
+    margin-left: 10px;
+}
+
+.summary .keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+.summary .key {
+    color: black;
+}
+.summary .header {
+    background-color: #2779bd;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+
+    display: flex;
+}
+.summary .currentChar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+
+    padding: 60px;
+}
+
+.currentChar h6 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 5em;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.summary .highlights {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+.summary .highlights svg {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.summary .control {
+    background-color: #f5f8fa;
+}
+

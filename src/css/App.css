@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding-top: 10px;
+    color: #22292f;
+    font-family: Arial, Georgia, sans-serif;
+    background-color: #f5f8fa;
+    overflow: scroll;
+}
+svg {
+    fill: currentColor;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.fill-primary svg {
+    fill: #2779bd;
+}
+
+.fill-danger svg {
+    fill: #e3342f;
+}
+
+.pt-1 {
+    padding-top: 5px;
+}
+.p-0 {
+    padding: 0 !important;
+}
+.p-2 {
+    padding: 10px;
+}
+
+.px-1 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bg-white {
+    background-color: #fff;
+}
+
+template {
+    display: hidden;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-8 {
+    flex: 0 0 75%;
+}
+.flex-4 {
+    flex: 0 0 25%;
+}
+
+.jcc {
+    justify-content: center;
+}
+.jcsb {
+    justify-content: space-between;
+}
+.jcfe {
+    justify-content: flex-end;
+}
+.aic {
+    align-items: center;
+}
+
+.control {
+    width: 100%;
+    display: block;
+    padding: 0.75rem;
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+}
+.control:focus {
+    outline: none;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-1 {
+    font-size: 1rem;
+}
+
+.text-lg {
+    color: #8795a1;
+    font-size: 2.25rem;
+    font-weight: 100;
+}
+.text-md {
+    color: #8795a1;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.flex-unit-1 {
+    flex: 1;
+}
+.flex-unit-2 {
+    flex: 2;
+}
+
+.mr-2 {
+    margin-right: 1.25rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.shadow {
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+        0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+
+.bordered-left {
+    border-left: 4px solid #2779bd50;
+}
+.bordered-right {
+    border-right: 4px solid #2779bd50;
+}
+.bordered-top {
+    border-top: 4px solid #2779bd50;
+}

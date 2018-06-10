@@ -1,0 +1,22 @@
+{
+  "name": "typing-master",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "highcharts": "^6.1.0",
+    "immutable": "^3.8.2",
+    "l": "^0.6.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

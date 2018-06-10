@@ -1,0 +1,29 @@
+.navbar {
+    align-items: baseline;
+}
+.navbar-brand {
+    color: #2779bd;
+    padding: 0.5rem 1rem;
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.navbar-link {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+}
+
+.navbar-link:hover {
+    cursor: pointer;
+    color: #2779bd;
+}
+
+.navbar-link.active {
+    color: #2779bd;
+    border-bottom: 2px solid #2779bd;
+}
+
+.navbar-link.active:hover {
+    cursor: not-allowed;
+}

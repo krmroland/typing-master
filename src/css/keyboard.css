@@ -1,0 +1,87 @@
+.keyboard {
+    /* width: 850px; */
+    background-color: #000;
+    padding: 5px 0;
+}
+
+.keyboard ::selection {
+    background: none;
+}
+
+.keyboard-row {
+    display: flex;
+}
+
+.keyboard-row * {
+    flex: 1;
+}
+
+.keyboard-button {
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+    margin: 3px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+        0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+.keyboard-button.is-lighting {
+    color: #2779bd;
+    box-shadow: 2px 1px 3px 0#2779BD, 2px 1px 3px 2px#2779BD;
+}
+.keyboard-button.is-error {
+    color: #e3342f;
+    box-shadow: 2px 1px 3px 0 #e3342f, 2px 1px 3px 2px #e3342f;
+}
+.space-key {
+    flex: 10;
+}
+
+.shift-key {
+    flex: 3;
+}
+
+.caps-key {
+    flex: 2.75;
+}
+
+.tab-key,
+.backspace,
+.enter-key {
+    flex: 2;
+}
+
+.double-char-key {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-key,
+.backspace,
+.shift-key,
+.caps-key,
+.ctr-key,
+.command-key,
+.enter-key,
+.fn-key,
+.alt-key {
+    font-size: 1rem;
+}
+
+.button-has-icon {
+    display: flex;
+    align-items: center;
+}
+.button-has-icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.backspace,
+.enter-key {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.backspace,
+.enter-key svg {
+    padding-top: 10px;
+}

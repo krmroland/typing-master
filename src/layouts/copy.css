@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-size: 1.25rem;
+}
+.navbar-brand {
+    text-decoration: none;
+}
+.navbar-link {
+    padding: 0.75rem 1rem;
+}
+.navbar-link:hover {
+    cursor: pointer;
+}
+.navbar-links .active {
+    border-top: 4px solid #2779bd;
+
+    background-color: #fff;
+}

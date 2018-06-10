@@ -1,0 +1,29 @@
+.dashboard {
+    background-color: #f5f8fa;
+    padding: 1rem;
+}
+
+.progress {
+    height: 1.5rem;
+    color: black;
+    overflow: hidden;
+    font-size: 1rem;
+    font-size: bold;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+.progress-bar {
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #2779bd;
+    transition: width 0.6s ease;
+    height: 100%;
+    padding: 5px;
+}
+
+.progress-danger {
+    background-color: #e3342f90;
+}
